@@ -529,4 +529,260 @@ footer .footer-heading-style {
   top: -80px;
 }
 
+.banner-index-page {
+  opacity: 1;
+  background: transparent url(../images/homepage_banner.png) 0 0 no-repeat padding-box;
+  display: flex;
+  align-items: center;
+  height: 768px;
+}
+
+.see-product-btn {
+  background: #FDB514 0% 0% no-repeat padding-box;
+  text-align: center;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 16px;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: 0px;
+  color: #000000;
+  border: 0px solid transparent;
+  padding: 13px 41px;
+}
+
+.true-color {
+  color: #fdb514;
+}
+
+.banner-heading-style {
+  text-align: left;
+  font-weight: bold;
+  font-variant: normal;
+  font-size: 40px;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.trivia-section {
+  background: #fdb514 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.5);
+  margin-right: 15px;
+  max-width: 536px;
+  padding: 60px 80px;
+}
+
+.index-section-content {
+  background: #2E2E2E 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.trivia-section span {
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 31px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.index-section-content-positioning {
+  position: relative;
+  top: -100px;
+}
+
+.ceo-message-crap .message-heading {
+  text-align: left;
+  font-size: 40px;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: 0px;
+  color: #FDB514;
+}
+
+.ceo-message-crap .message-text {
+  text-align: left;
+  font-size: 15px;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+.ceo-message-crap .message-punctuation {
+  font-weight: normal;
+  font-size: 42px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-bottom: 0;
+  line-height: 2rem;
+}
+
+.ceo-message-crap .text-section {
+  padding-right: 60px;
+  margin-top: 100px;
+}
+
+.ceo-message-crap .text-section.right-sided {
+  padding-left: 60px;
+  padding-right: 0px;
+}
+
+.border-style-partial-images-ceo .right:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: auto;
+  height: 50%;
+  left: auto;
+  right: 10px;
+  border-right: 5px solid #fdb514;
+}
+
+.border-style-partial-images-ceo .bottom:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  left: auto;
+  right: 10px;
+  border-bottom: 5px solid #fdb514;
+}
+
+.border-style-partial-images-ceo .top:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  height: 5px;
+  width: 50%;
+  border-top: 5px solid #fdb514;
+}
+
+.border-style-partial-images-ceo .left:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  height: 50%;
+  width: 50%;
+  border-left: 5px solid #fdb514;
+}
+
+.our-companies-bg {
+  opacity: 1;
+  background: transparent url(../images/our-company-bg.png) 0 0 no-repeat padding-box;
+  min-height: 1080px;
+  display: block;
+}
+
+.our-customer-bg {
+  opacity: 1;
+  background: transparent url(../images/valued_customer.png) 0 0 no-repeat padding-box;
+  min-height: 946px;
+  display: block;
+}
+
+.overall-content-heading {
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: 0px;
+  font-size: 40px;
+  color: #000000;
+}
+
+.overall-content-paragraph {
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0px;
+  font-size: 15px;
+  color: #000000;
+}
+
+.positioning-text-our-company {
+  display: inline-block;
+}
+
+.positioning-text-our-customer {
+  display: inline-block;
+}
+
+.each-company-shit {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+.each-company-shit .centered {
+  position: absolute;
+  top: auto;
+  left: 10%;
+  transform: translate(0, -50%);
+}
+
+.each-company-shit {
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: 0px;
+  font-size: 40px;
+  color: #FFF;
+}
+
+.each-company-shit:hover .text-company-shit {
+  border-left: 3px solid #fdb514;
+}
+
+.each-company-shit .text-company-shit {
+  line-height: 40px;
+  padding-left: 10px;
+}
+
+.each-company-shit img {
+  filter: grayscale(0.5);
+}
+
+.each-company-shit .bottom {
+  position: absolute;
+  bottom: 8px;
+  right: auto;
+}
+
+.text-customer-shit {
+  text-align: center;
+  font-size: 15px;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0px;
+  color: #707070;
+}
+
+.each-customer-shit img {
+  max-width: 167px;
+}
+
+.each-customer-shit {
+  margin-bottom: 30px;
+}
+
+.all-customer-profile {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+
+@media (max-width: 575px) {
+  .each-customer-shit:nth-child(-n+5) {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .each-customer-shit:nth-child(-n+5) {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=site.css.map */

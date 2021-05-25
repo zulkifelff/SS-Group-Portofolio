@@ -17,7 +17,7 @@
             </div>
         </div>
     </div>
-    <div class="navbar fixed-top navbar-dark">
+    <div class="navbar fixed-top navbar-dark ">
         <div class="container d-flex justify-content-between">
             <a href="#" class="navbar-brand d-flex align-items-center">
                 <img src="assets/images/logo.png" alt="Logo">
