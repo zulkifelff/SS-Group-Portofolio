@@ -9,6 +9,14 @@ footer {
   padding-bottom: 25px;
 }
 
+.border-style-partial-images-ceo {
+  transition: all 0.4s ease-in-out;
+}
+
+.border-style-partial-images-ceo:hover {
+  transform: scale(1.2);
+}
+
 .loaderHolder {
   background-color: #fff;
   bottom: 0;
@@ -804,9 +812,55 @@ footer .footer-heading-style {
     display: none;
   }
 }
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .our-customer-bg {
+    opacity: 1;
+    background-color: #EEE;
+    min-height: 100%;
+    max-height: 100%;
+    display: block;
+  }
+}
 @media (max-width: 767px) {
   .each-customer-shit:nth-child(-n+5) {
     display: none;
+  }
+}
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .trivia-section {
+    background: #fdb514 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.5);
+    margin-right: 15px;
+    max-width: 465px;
+    padding: 60px 80px;
+  }
+}
+/* ----------- iPad  ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .trivia-section {
+    background: #fdb514 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.5);
+    margin-right: 15px;
+    max-width: 100%;
+    padding: 60px 80px;
+    margin-bottom: 5px;
+  }
+
+  .banner-detail-page {
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-image: url(../images/Banner.png);
+    background-color: transparent;
+    background-clip: padding-box;
+    opacity: 1;
+    /* height: 765px; */
+    background-size: auto;
+    background-position: top center;
+    display: block;
+    width: calc(100% - 0px);
   }
 }
 

@@ -35,7 +35,7 @@
         <div class="row">
 
 
-        <div class="col-sm-12 col-md-6 py-0 border-style-partial top left mt-70">
+        <div class="col-sm-12 col-md-12 col-lg-6 py-0 border-style-partial top left mt-70">
 
             <p class="paragraph-text">
                 S.S. Oil Mills Limited has a modern Edible Oil Solvent Extraction Plant, situated at Vehari. The project
@@ -52,7 +52,7 @@
         </div>
 
 
-        <div class="col-sm-12 col-md-6 py-0 img-section-position">
+        <div class="col-sm-12 col-md-12 col-lg-6 py-0 img-section-position">
             <div class="row border-style-partial-images bottom">
                 <div class="right">
                     <img class="img-fluid" src="assets/images/image@2x.png" alt="Refinery Image Detail Page">

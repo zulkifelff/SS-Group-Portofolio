@@ -41,7 +41,7 @@
 
     <div class="container d-none d-sm-block index-section-content-positioning">
         <div class="row row-gutters-void">
-            <div class="col-sm-12 col-md-6  trivia-section">
+            <div class="col-sm-12 col-md-12 col-lg-6  trivia-section">
 
                 <div class="media">
                     <img class="mr-5" src="assets/images/Icon%20material-group.svg" alt="Dynamic Employee">
@@ -51,7 +51,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6  trivia-section">
+            <div class="col-sm-12 col-md-12 col-lg-6 trivia-section">
                 <div class="media">
                     <img class="mr-5" src="assets/images/Icon%20awesome-money-bill-alt.svg" alt="Material Turnover">
                     <div class="media-body text-center">
