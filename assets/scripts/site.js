@@ -13,3 +13,13 @@ jQuery(window).on('scroll', function () {
 function sendContact() {
 
 }
+
+function closeLoader()
+{
+    jQuery('#loaderHolder').addClass('d-none');
+}
+
+function openLoader()
+{
+    jQuery('#loaderHolder').removeClass('d-none');
+}

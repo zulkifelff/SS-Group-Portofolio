@@ -1,3 +1,7 @@
+<div class="loaderHolder d-none" id="loaderHolder">
+    <div class="loading"></div>
+</div>
+
 <header class="clearfix">
     <div class="bg-dark collapse hide" id="navbarHeader" style="">
         <div class="container">
