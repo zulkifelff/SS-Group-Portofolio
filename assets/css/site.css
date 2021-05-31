@@ -416,17 +416,11 @@ footer .footer-heading-style {
 }
 
 .banner-detail-page {
-  background-repeat: no-repeat;
-  background-origin: padding-box;
-  background-image: url("../images/Banner.png");
-  background-color: transparent;
-  background-clip: padding-box;
   opacity: 1;
-  height: 765px;
-  background-size: contain;
-  background-position: top center;
-  display: block;
-  width: calc(100% - 0px);
+  background: transparent url(../images/Banner.png) 0 0 no-repeat padding-box;
+  display: flex;
+  align-items: center;
+  height: 766px;
 }
 
 .navbar.active .menu-text {
@@ -816,10 +810,13 @@ footer .footer-heading-style {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   .our-customer-bg {
     opacity: 1;
-    background-color: #EEE;
     min-height: 100%;
     max-height: 100%;
     display: block;
+  }
+
+  .our-customer-bg {
+    background-color: #fcfbfa;
   }
 }
 @media (max-width: 767px) {
@@ -847,20 +844,6 @@ footer .footer-heading-style {
     max-width: 100%;
     padding: 60px 80px;
     margin-bottom: 5px;
-  }
-
-  .banner-detail-page {
-    background-repeat: no-repeat;
-    background-origin: padding-box;
-    background-image: url(../images/Banner.png);
-    background-color: transparent;
-    background-clip: padding-box;
-    opacity: 1;
-    /* height: 765px; */
-    background-size: auto;
-    background-position: top center;
-    display: block;
-    width: calc(100% - 0px);
   }
 }
 

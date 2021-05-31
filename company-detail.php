@@ -27,6 +27,9 @@
 <?php include 'shared/header.php'; ?>
 
     <div class="banner-detail-page">
+        <div class="container row-gutters-void page-banner-container">
+            <h2 class="banner-heading-style">SS <span class="true-color">Feed Company</span></h2>
+        </div>
     </div>
 
 <section>
