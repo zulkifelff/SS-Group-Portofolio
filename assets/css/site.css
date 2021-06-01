@@ -818,6 +818,11 @@ footer .footer-heading-style {
   .our-customer-bg {
     background-color: #fcfbfa;
   }
+
+  .loading {
+    left: 0%;
+    top: 20%;
+  }
 }
 @media (max-width: 767px) {
   .each-customer-shit:nth-child(-n+5) {
@@ -844,6 +849,11 @@ footer .footer-heading-style {
     max-width: 100%;
     padding: 60px 80px;
     margin-bottom: 5px;
+  }
+
+  .loading {
+    left: 25%;
+    top: 30%;
   }
 }
 

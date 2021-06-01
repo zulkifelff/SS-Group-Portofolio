@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
           crossorigin="anonymous">
@@ -28,7 +31,7 @@
 
     <div class="banner-detail-page">
         <div class="container row-gutters-void page-banner-container">
-            <h2 class="banner-heading-style">SS <span class="true-color">Feed Company</span></h2>
+            <h2 class="banner-heading-style animate__fadeIn wow" data-wow-duration="3s">SS <span class="true-color">Feed Company</span></h2>
         </div>
     </div>
 
@@ -40,14 +43,14 @@
 
         <div class="col-sm-12 col-md-12 col-lg-6 py-0 border-style-partial top left mt-70">
 
-            <p class="paragraph-text">
+            <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">
                 S.S. Oil Mills Limited has a modern Edible Oil Solvent Extraction Plant, situated at Vehari. The project
                 incorporates the latest techniques of processing, oilseed storage and quality control systems to ensure
                 a consistently high standard in its products. The plant’s capacity for processing of oilseeds is 90,000
                 M. Tons per annum.
             </p>
 
-            <p class="paragraph-text">
+            <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">
                 The Company was incorporated on August 21, 1990 as a Public Limited Company and its shares are quoted on
                 the Karachi and Lahore Stock Exchanges. The principal object of the Company is to carry on the business
                 of Extracting, Refining, Processing and sale of Edible Oil, Meal and bye products.
@@ -58,7 +61,7 @@
         <div class="col-sm-12 col-md-12 col-lg-6 py-0 img-section-position">
             <div class="row border-style-partial-images bottom">
                 <div class="right">
-                    <img loading="lazy" class="img-fluid" src="assets/images/image@2x.png" alt="Refinery Image Detail Page">
+                    <img loading="lazy" class="img-fluid wow animate__fadeIn" data-wow-duration="3s" src="assets/images/image@2x.png" alt="Refinery Image Detail Page">
                 </div>
 
             </div>
@@ -70,6 +73,9 @@
 
 <?php include 'shared/footer.php'; ?>
 <script src="assets/scripts/site.js">
+
+</script>
+<script>
 
 </script>
 </body>

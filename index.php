@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
           crossorigin="anonymous">
@@ -29,8 +32,8 @@
 <?php include 'shared/header.php'; ?>
 <section class="container-fluid row-gutters-void banner-index-page">
     <div class="container row-gutters-void page-banner-container">
-                        <h2 class="banner-heading-style">Building <span class="true-color">Values</span></h2>
-                        <h2 class="banner-heading-style">Strengthen <span class="true-color">Community</span></h2>
+                        <h2 class="banner-heading-style animate__fadeInUp animate__slow wow" data-wow-duration="3s" >Building <span class="true-color">Values</span></h2>
+                        <h2 class="banner-heading-style animate__fadeInUp animate__slow wow" data-wow-duration="3s" >Strengthen <span class="true-color">Community</span></h2>
 
                         <button class="see-product-btn mt-15">See Products</button>
     </div>
@@ -44,8 +47,8 @@
             <div class="col-sm-12 col-md-12 col-lg-6  trivia-section">
 
                 <div class="media">
-                    <img loading="lazy" class="mr-5" src="assets/images/Icon%20material-group.svg" alt="Dynamic Employee">
-                    <div class="media-body text-center">
+                    <img  loading="lazy" class="mr-5 animate__fadeInUp wow" data-wow-duration="3s" src="assets/images/Icon%20material-group.svg" alt="Dynamic Employee">
+                    <div class="media-body text-center animate__fadeInUp animate__slow wow" data-wow-duration="3s" >
                         <span><strong>2,200</strong> Dynamic Employees</span>
                     </div>
                 </div>
@@ -53,8 +56,8 @@
 
             <div class="col-sm-12 col-md-12 col-lg-6 trivia-section">
                 <div class="media">
-                    <img loading="lazy" class="mr-5" src="assets/images/Icon%20awesome-money-bill-alt.svg" alt="Material Turnover">
-                    <div class="media-body text-center">
+                    <img loading="lazy" class="mr-5 animate__fadeInUp wow"  data-wow-duration="3s"  src="assets/images/Icon%20awesome-money-bill-alt.svg" alt="Material Turnover">
+                    <div class="media-body text-center animate__fadeInUp animate__slow wow" data-wow-duration="3s" >
                         <span>PKR <strong>22 Billion</strong> Turnover</span>
                     </div>
                 </div>
@@ -77,7 +80,7 @@
                 </h3>
 
                 <p class="message-punctuation text-left">&#34;</p>
-                <p class="message-text">
+                <p class="message-text animate__fadeInLeft wow" data-wow-duration="2s">
                     Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
                 </p>
                 <p class="message-punctuation text-right">&#34;</p>
@@ -90,7 +93,8 @@
                     <span class="top">
                         <span class="right">
                             <span class="bottom">
-                                <img loading="lazy" src="assets/images/img01@2x.png" alt="CEO Message 1 Avatar" class="img-fluid">
+                                <img loading="lazy"
+                                     src="assets/images/img01@2x.png" alt="CEO Message 1 Avatar" class="img-fluid wow animate__fadeInDown" data-wow-duration="3s">
                             </span>
                         </span>
                     </span>
@@ -106,7 +110,7 @@
                     <span class="top">
                         <span class="right">
                             <span class="bottom">
-                                <img loading="lazy" src="assets/images/img01@2x.png" alt="CEO Message 1 Avatar" class="img-fluid">
+                                <img loading="lazy" src="assets/images/img01@2x.png" alt="CEO Message 1 Avatar" class="img-fluid wow animate__fadeInDown" data-wow-duration="3s">
                             </span>
                         </span>
                     </span>
@@ -120,7 +124,7 @@
                 </h3>
 
                 <p class="message-punctuation text-left">&#34;</p>
-                <p class="message-text">
+                <p class="message-text animate__fadeInLeft wow" data-wow-duration="2s">
                     Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
                 </p>
                 <p class="message-punctuation text-right">&#34;</p>
@@ -138,7 +142,7 @@
                 </h3>
 
                 <p class="message-punctuation text-left">&#34;</p>
-                <p class="message-text">
+                <p class="message-text animate__fadeInLeft wow" data-wow-duration="2s">
                     Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
                 </p>
                 <p class="message-punctuation text-right">&#34;</p>
@@ -151,7 +155,7 @@
                     <span class="top">
                         <span class="right">
                             <span class="bottom">
-                                <img loading="lazy" src="assets/images/img01@2x.png" alt="CEO Message 1 Avatar" class="img-fluid">
+                                <img loading="lazy" src="assets/images/img01@2x.png" alt="CEO Message 1 Avatar" class="img-fluid wow animate__fadeInDown" data-wow-duration="3s">
                             </span>
                         </span>
                     </span>
@@ -179,27 +183,27 @@
             </div>
 
             <div class="mt-40 clearfix all-companies-profile row">
-                <div class=" col-md-4 each-company-shit row-gutters-void">
+                <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-1.png" alt="Industry 1" style="width:100%;">
                     <div class="centered bottom text-company-shit">SS Oil</div>
                 </div>
-                <div class=" col-md-4 each-company-shit row-gutters-void">
+                <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-2.png" alt="Industry 1" style="width:100%;">
                     <div class="centered bottom text-company-shit">SS Feed</div>
                 </div>
-                <div class=" col-md-4 each-company-shit row-gutters-void">
+                <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-3.png" alt="Industry 1" style="width:100%;">
                     <div class="centered bottom text text-company-shit">Spinning</div>
                 </div>
-                <div class=" col-md-4 each-company-shit row-gutters-void">
+                <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-1.png" alt="Industry 1" style="width:100%;">
                     <div class="centered bottom text-company-shit">Agricultural Farm</div>
                 </div>
-                <div class=" col-md-4 each-company-shit row-gutters-void">
+                <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-2.png" alt="Industry 1" style="width:100%;">
                     <div class="centered bottom text-company-shit">Cooking Oil</div>
                 </div>
-                <div class=" col-md-4 each-company-shit row-gutters-void">
+                <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-3.png" alt="Industry 1" style="width:100%;">
                     <div class="centered bottom text-company-shit">Sikandar Commodities</div>
                 </div>
@@ -315,6 +319,8 @@
 <?php include 'shared/footer.php'; ?>
 <script src="assets/scripts/site.js">
 
+</script>
+<script>
 </script>
 </body>
 </html>
