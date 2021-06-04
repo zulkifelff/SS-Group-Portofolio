@@ -177,8 +177,7 @@
                 </h3>
 
                 <p class="overall-content-paragraph mt-15">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been <br>
-                    the industry's standard dummy text ever since the 1500s.
+                    Our mission statement and vision move across our all companies. No compromise on quality of products.
                 </p>
             </div>
 
