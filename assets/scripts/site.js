@@ -31,33 +31,14 @@ function openLoader() {
 
 function menuBarToggle()
 {
-    // setTimeout(function () {
-    //     if(jQuery("#navbarHeader").hasClass("show"))
-    //     {
-    //         debugger;
-    //         jQuery("#navbarHeader").addClass('fixed-header-bar');
-    //         var heightOfNavbar=$('#navbarHeader').outerHeight();
-    //         jQuery(".navbar").css({"top": heightOfNavbar});
-    //         jQuery(".navbar").addClass('active');
-    //     }
-    //     else
-    //     {
-    //         jQuery("#navbarHeader").removeClass('fixed-header-bar');
-    //         jQuery(".navbar").css({"top": 0});
-    //         jQuery(".navbar").removeClass('active');
-    //     }
-    // }, 400);
-
     jQuery("html, body").animate({ scrollTop: 0 }, 'fast');
     return false;
-
     console.log('Something is pressed');
 
+}
 
-
-    // Upon Open
-
-
-
-    // Upon Close
+function seeCompanies()
+{
+    var elmnt = document.getElementById("our-companies");
+    elmnt.scrollIntoView();
 }

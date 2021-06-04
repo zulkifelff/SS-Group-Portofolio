@@ -35,7 +35,7 @@
                         <h2 class="banner-heading-style animate__fadeInUp animate__slow wow" data-wow-duration="3s" >Building <span class="true-color">Values</span></h2>
                         <h2 class="banner-heading-style animate__fadeInUp animate__slow wow" data-wow-duration="3s" >Strengthen <span class="true-color">Community</span></h2>
 
-                        <button class="see-product-btn mt-15">See Products</button>
+                        <button onclick="seeCompanies()" class="see-product-btn mt-15">See Companies</button>
     </div>
 </section>
 
@@ -216,7 +216,7 @@
 
 
     <!--    Our Customer-->
-    <div class="our-companies our-customer-bg container-fluid">
+    <div id="our-companies" class="our-companies our-customer-bg container-fluid">
 
         <div class="container clearfix text-center">
             <div class="mt-60 clearfix positioning-text-our-customer text-center">
