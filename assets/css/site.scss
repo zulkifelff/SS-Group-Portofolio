@@ -11,6 +11,10 @@ footer {
   padding-bottom: 25px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   //font-family: 'Open Sans', sans-serif;
   //font-family: 'Roboto Slab', serif;
@@ -408,6 +412,13 @@ footer .footer-heading-style {
 
 .navbar .navbar-brand {
   color: #000000;
+}
+
+.fixed-header-bar
+{
+  position: fixed;
+  width: 100%;
+  z-index: 1030;
 }
 
 

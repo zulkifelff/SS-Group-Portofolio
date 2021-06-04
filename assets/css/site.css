@@ -9,6 +9,10 @@ footer {
   padding-bottom: 25px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .border-style-partial-images-ceo {
   transition: all 0.4s ease-in-out;
 }
@@ -393,6 +397,12 @@ footer .footer-heading-style {
 
 .navbar .navbar-brand {
   color: #000000;
+}
+
+.fixed-header-bar {
+  position: fixed;
+  width: 100%;
+  z-index: 1030;
 }
 
 /* Change navbar styling on scroll */
