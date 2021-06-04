@@ -94,7 +94,7 @@
                         <span class="right">
                             <span class="bottom">
                                 <img loading="lazy"
-                                     src="assets/images/img01@2x.png" alt="CEO Message 1 Avatar" class="img-fluid wow animate__fadeInDown" data-wow-duration="3s">
+                                     src="assets/images/people/ceo-man.png" alt="CEO Message 1 Avatar" class="img-fluid wow animate__fadeInDown" data-wow-duration="3s">
                             </span>
                         </span>
                     </span>
@@ -110,7 +110,7 @@
                     <span class="top">
                         <span class="right">
                             <span class="bottom">
-                                <img loading="lazy" src="assets/images/img01@2x.png" alt="CEO Message 1 Avatar" class="img-fluid wow animate__fadeInDown" data-wow-duration="3s">
+                                <img loading="lazy" src="assets/images/people/director-man.png" alt="Director Avatar" class="img-fluid wow animate__fadeInDown" data-wow-duration="3s">
                             </span>
                         </span>
                     </span>
@@ -155,7 +155,7 @@
                     <span class="top">
                         <span class="right">
                             <span class="bottom">
-                                <img loading="lazy" src="assets/images/img01@2x.png" alt="CEO Message 1 Avatar" class="img-fluid wow animate__fadeInDown" data-wow-duration="3s">
+                                <img loading="lazy" src="assets/images/people/director2-man.png" alt="Director 2 Avatar" class="img-fluid wow animate__fadeInDown" data-wow-duration="3s">
                             </span>
                         </span>
                     </span>
@@ -227,80 +227,80 @@
 
             </div>
 
-            <div class="mt-40 clearfix all-customer-profile row">
+            <div class="mt-40 clearfix all-customer-profile row wow animate__fadeIn" data-wow-duration="4s"">
                 <div class="col-md-2 each-customer-shit row-gutters-void">
-                    <img loading="lazy" src="assets/images/customer/RPC-JP_Logo.png" alt="Industry 1" style="width:100%;">
-                    <div class="text-customer-shit">Kamal Textile Mills</div>
+                    <img loading="lazy" src="assets/images/all-customer/all-noor.png" alt="Al Noor Farm" style="width:100%;">
+                    <div class="text-customer-shit">Al Noor Farm</div>
                 </div>
                 <div class="col-md-2 each-customer-shit row-gutters-void">
-                    <img loading="lazy" src="assets/images/customer-2/travels-logo-png-for-business-design-template-03d1ab18244e3126af5a7b41554e7c99_screen.png" alt="Industry 1" style="width:100%;">
-                    <div class=" text-customer-shit">Nishat Mills Ltd.</div>
-                </div>
-
-                <div class="col-md-2 each-customer-shit row-gutters-void">
-                    <img loading="lazy" src="assets/images/customer-3/16020923_400.png" alt="Industry 1" style="width:100%;">
-                    <div class=" text-customer-shit">Reliance Weaving Mills</div>
+                    <img loading="lazy" src="assets/images/all-customer/fazal_cloth.png" alt="Fazal Cloth" style="width:100%;">
+                    <div class=" text-customer-shit">Fazal Cloth Ltd.</div>
                 </div>
 
                 <div class="col-md-2 each-customer-shit row-gutters-void">
-                    <img loading="lazy" src="assets/images/customer-4/0a8134be5bc16bacf988646fab62da49.png" alt="Industry 1" style="width:100%;">
-                    <div class=" text-customer-shit">Shahtaj Textile Ltd.</div>
+                    <img loading="lazy" src="assets/images/all-customer/hi-tech.png" alt="Hi Tech Group of Companies" style="width:100%;">
+                    <div class=" text-customer-shit">Hi Tech Group</div>
                 </div>
 
                 <div class="col-md-2 each-customer-shit row-gutters-void">
-                    <img loading="lazy" src="assets/images/customer-5/free-png-logos-Transparent-Images.png" alt="Industry 1" style="width:100%;">
-                    <div class=" text-customer-shit">Diamond Fabric</div>
+                    <img loading="lazy" src="assets/images/all-customer/ibrahim.png" alt="Industry 1" style="width:100%;">
+                    <div class=" text-customer-shit">Ibrahim Industries</div>
                 </div>
 
                 <div class="col-md-2 each-customer-shit row-gutters-void">
-                    <img loading="lazy" src="assets/images/customer-6/travels-logo-png-for-business-design-template-03d1ab18244e3126af5a7b41554e7c99_screen.png" alt="Industry 1" style="width:100%;">
-                    <div class=" text-customer-shit">Sapphire Textile</div>
+                    <img loading="lazy" src="assets/images/all-customer/kamal.png" alt="Kamal Industries" style="width:100%;">
+                    <div class=" text-customer-shit">Kamal Industries</div>
                 </div>
 
                 <div class="col-md-2 each-customer-shit row-gutters-void">
-                    <img loading="lazy" src="assets/images/customer-6/travels-logo-png-for-business-design-template-03d1ab18244e3126af5a7b41554e7c99_screen.png" alt="Industry 1" style="width:100%;">
-                    <div class=" text-customer-shit">Fazal Cloth Mills</div>
+                    <img loading="lazy" src="assets/images/all-customer/nishat.png" alt="Nishat" style="width:100%;">
+                    <div class=" text-customer-shit">Nishat</div>
                 </div>
 
                 <div class="col-md-2 each-customer-shit row-gutters-void">
-                    <img loading="lazy" src="assets/images/customer-6/travels-logo-png-for-business-design-template-03d1ab18244e3126af5a7b41554e7c99_screen.png" alt="Industry 1" style="width:100%;">
-                    <div class=" text-customer-shit">Fazal Rehman</div>
+                    <img loading="lazy" src="assets/images/all-customer/reliance.png" alt="Reliance" style="width:100%;">
+                    <div class=" text-customer-shit">Reliance Weaving Group</div>
                 </div>
 
                 <div class="col-md-2 each-customer-shit row-gutters-void">
-                    <img loading="lazy" src="assets/images/customer-7/google-stadia-logo-hd4.png" alt="Industry 1" style="width:100%;">
-                    <div class=" text-customer-shit">United Industries Ltd.</div>
+                    <img loading="lazy" src="assets/images/all-customer/Sapphire.png" alt="Sapphire" style="width:100%;">
+                    <div class=" text-customer-shit">Sapphire Industries</div>
                 </div>
 
                 <div class="col-md-2 each-customer-shit row-gutters-void">
-                    <img loading="lazy" src="assets/images/customer-8/free-logos-png-1-Transparent-Images.png" alt="Industry 1" style="width:100%;">
-                    <div class=" text-customer-shit">Ibrahim Poultry Traders</div>
+                    <img loading="lazy" src="assets/images/all-customer/season-group.png" alt="Season Group" style="width:100%;">
+                    <div class=" text-customer-shit">Season Group</div>
                 </div>
 
                 <div class="col-md-2 each-customer-shit row-gutters-void">
-                    <img loading="lazy" src="assets/images/customer-6/travels-logo-png-for-business-design-template-03d1ab18244e3126af5a7b41554e7c99_screen.png" alt="Industry 1" style="width:100%;">
-                    <div class=" text-customer-shit">Seasons Edible Oil Ltd.</div>
+                    <img loading="lazy" src="assets/images/all-customer/shahtaj.png" alt="Industry 1" style="width:100%;">
+                    <div class=" text-customer-shit">Shahtaj Textile</div>
                 </div>
 
                 <div class="col-md-2 each-customer-shit row-gutters-void">
-                    <img loading="lazy" src="assets/images/customer-6/travels-logo-png-for-business-design-template-03d1ab18244e3126af5a7b41554e7c99_screen.png" alt="Industry 1" style="width:100%;">
-                    <div class=" text-customer-shit">Al Noor Poultry Services</div>
+                    <img loading="lazy" src="assets/images/all-customer/united.png" alt="Industry 1" style="width:100%;">
+                    <div class=" text-customer-shit">United Industries Limited</div>
                 </div>
 
                 <div class="col-md-2 each-customer-shit row-gutters-void">
-                    <img loading="lazy" src="assets/images/customer-8/free-logos-png-1-Transparent-Images.png" alt="Industry 1" style="width:100%;">
-                    <div class=" text-customer-shit">Al Noor Poultry Services</div>
+                    <img loading="lazy" src="assets/images/all-customer/zubair.png" alt="Industry 1" style="width:100%;">
+                    <div class=" text-customer-shit">Zubair Feed</div>
                 </div>
 
-                <div class="col-md-2 each-customer-shit row-gutters-void">
-                    <img loading="lazy" src="assets/images/customer-6/travels-logo-png-for-business-design-template-03d1ab18244e3126af5a7b41554e7c99_screen.png" alt="Industry 1" style="width:100%;">
-                    <div class=" text-customer-shit">Zubair Feeds Mills Pvt. Ltd.</div>
-                </div>
+<!--                <div class="col-md-2 each-customer-shit row-gutters-void">-->
+<!--                    <img loading="lazy" src="assets/images/customer-8/free-logos-png-1-Transparent-Images.png" alt="Industry 1" style="width:100%;">-->
+<!--                    <div class=" text-customer-shit">Al Noor Poultry Services</div>-->
+<!--                </div>-->
 
-                <div class="col-md-2 each-customer-shit row-gutters-void">
-                    <img loading="lazy" src="assets/images/customer-7/google-stadia-logo-hd4.png" alt="Industry 1" style="width:100%;">
-                    <div class=" text-customer-shit">Hi-Tech Feeds Mills Pvt. Ltd.</div>
-                </div>
+<!--                <div class="col-md-2 each-customer-shit row-gutters-void">-->
+<!--                    <img loading="lazy" src="assets/images/customer-6/travels-logo-png-for-business-design-template-03d1ab18244e3126af5a7b41554e7c99_screen.png" alt="Industry 1" style="width:100%;">-->
+<!--                    <div class=" text-customer-shit">Zubair Feeds Mills Pvt. Ltd.</div>-->
+<!--                </div>-->
+
+<!--                <div class="col-md-2 each-customer-shit row-gutters-void">-->
+<!--                    <img loading="lazy" src="assets/images/customer-7/google-stadia-logo-hd4.png" alt="Industry 1" style="width:100%;">-->
+<!--                    <div class=" text-customer-shit">Hi-Tech Feeds Mills Pvt. Ltd.</div>-->
+<!--                </div>-->
 
 
 
