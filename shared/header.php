@@ -16,6 +16,7 @@
                   <h4 class="text-white">S.S. Group</h4>
                     <ul class="list-unstyled">
                         <li><a target="_blank" href="/company-detail.php" class="text-white">Company Detail</a></li>
+                        <li><a target="_blank" href="/about-us.php" class="text-white">About Us</a></li>
                         <li><a target="_blank" href="#" class="text-white">Follow on Twitter</a></li>
                         <li><a target="_blank" href="#" class="text-white">Like on Facebook</a></li>
                         <li><a target="_blank" href="#" class="text-white">Follow on Instagram</a></li>

@@ -44,16 +44,13 @@
         <div class="col-sm-12 col-md-12 col-lg-6 py-0 border-style-partial top left mt-70">
 
             <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">
-                S.S. Oil Mills Limited has a modern Edible Oil Solvent Extraction Plant, situated at Vehari. The project
-                incorporates the latest techniques of processing, oilseed storage and quality control systems to ensure
-                a consistently high standard in its products. The plant’s capacity for processing of oilseeds is 90,000
-                M. Tons per annum.
+                SS Feed Mills has installed state of the art feed producing machinery imported from China. The present production capacity of the Mills is 42.5 M Ton per hour. The Mills produces poultry feed for Broiler birds from starting age to growing and finishing stages, as well as for layer poultry feed. The company has complete range of mesh and pellet feed for both poultry and cattle. The company uses the best formulations for feed production according to the requirement of age and type of birds and animals.
             </p>
 
             <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">
-                The Company was incorporated on August 21, 1990 as a Public Limited Company and its shares are quoted on
-                the Karachi and Lahore Stock Exchanges. The principal object of the Company is to carry on the business
-                of Extracting, Refining, Processing and sale of Edible Oil, Meal and bye products.
+                SS Feed Mills (Pvt) Ltd. Was incorporated on December 16, 2014 as private limited company.
+                The Company started its commercial operation in June 2017. SS Feed Mills is one of the fastest growing poultry & cattle feed Manufacturer Company situated at 27/WB Hasilpur Road  District Vehari of Punjab Province. The Company belongs to the owners of SS Group having Textile Spinning and Oil extracting business.
+                The owners of the Mills have capability and capacity to run an agro based industry in producing different types of poultry and cattle feeds with on time production and timely deliveries.
             </p>
         </div>
 
