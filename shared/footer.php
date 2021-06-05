@@ -110,14 +110,14 @@ $BASE_URL = "http://" . $_SERVER['SERVER_NAME'] . dirname($_SERVER["REQUEST_URI"
 <section class="copyright-section clearfix">
     <div class="container-fluid clearfix row-gutters-void">
 
-        <div class="pull-left copyright-text-style">
+        <div class="pull-left copyright-text-style mobile-footer-responsive">
             <span class=""> &#169; Copyrights, <?php echo date("Y"); ?>. </span>
 
             <span> &#169; All Rights Reserved.</span>
         </div>
 
 
-        <div class="pull-right">
+        <div class="pull-right mobile-footer-responsive">
 <span class="footer-link-sm facebook">
     <a title="Facebook" href="#" target="_blank"></a>
 </span>

@@ -29,9 +29,14 @@
 
 </head>
 <body>
+<?php
+$ceo_message = "Our continued augmentation and success depends not only on the work we do but how we do. By carrying the ritual of team work with faith and modernism that is embedded in our success to face new challenges. Trust and professional excellence shall always remain hallmark of our business.  ";
+$director1_message = "We need to accept that we won’t always make the right decisions, that we’ll screw up royally sometimes – understanding that failure is not the opposite of success, it’s part of success.";
+$director2_message = "I always did something I was a little not ready to do. I think that’s how you grow. When there’s that moment of ‘Wow, I’m not really sure I can do this,’ and you push through those moments, that’s when you have a breakthrough.";
+?>
 <?php include 'shared/header.php'; ?>
 <section class="container-fluid row-gutters-void banner-index-page">
-    <div class="container row-gutters-void page-banner-container">
+    <div class="container  page-banner-container">
                         <h2 class="banner-heading-style animate__fadeInUp animate__slow wow" data-wow-duration="3s" >Building <span class="true-color">Values</span></h2>
                         <h2 class="banner-heading-style animate__fadeInUp animate__slow wow" data-wow-duration="3s" >Strengthen <span class="true-color">Community</span></h2>
 
@@ -70,7 +75,7 @@
 
 
 <!--    CEO Message-->
-    <div class="container ceo-message-crap">
+    <div class="container ceo-message-crap pb-20">
 
         <div class="row ">
             <div class="col-sm-12 col-md-6 text-section">
@@ -81,7 +86,9 @@
 
                 <p class="message-punctuation text-left">&#34;</p>
                 <p class="message-text animate__fadeInLeft wow" data-wow-duration="2s">
-                    Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
+                    <?php
+                    echo $ceo_message
+                    ?>
                 </p>
                 <p class="message-punctuation text-right">&#34;</p>
 
@@ -120,12 +127,14 @@
             <div class="col-sm-12 col-md-6 offset-md-2 text-section right-sided">
 
                 <h3 class="message-heading">
-                    CEO's Message
+                    Director's Message
                 </h3>
 
                 <p class="message-punctuation text-left">&#34;</p>
                 <p class="message-text animate__fadeInLeft wow" data-wow-duration="2s">
-                    Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
+                    <?php
+                    echo $director1_message
+                    ?>
                 </p>
                 <p class="message-punctuation text-right">&#34;</p>
 
@@ -138,12 +147,14 @@
             <div class="col-sm-12 col-md-6 text-section">
 
                 <h3 class="message-heading">
-                    CEO's Message
+                    Directors's Message
                 </h3>
 
                 <p class="message-punctuation text-left">&#34;</p>
                 <p class="message-text animate__fadeInLeft wow" data-wow-duration="2s">
-                    Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
+                    <?php
+                    print_r($director2_message)
+                    ?>
                 </p>
                 <p class="message-punctuation text-right">&#34;</p>
 
@@ -182,11 +193,11 @@
             </div>
 
             <div class="mt-40 clearfix all-companies-profile row">
-                <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
+                <div  class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-1.png" alt="Industry 1" style="width:100%;">
                     <div class="centered bottom text-company-shit">SS Oil</div>
                 </div>
-                <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
+                <div onclick="redirectTo('company-detail.php')" class=" pointer col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-2.png" alt="Industry 1" style="width:100%;">
                     <div class="centered bottom text-company-shit">SS Feed</div>
                 </div>

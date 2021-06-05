@@ -42,3 +42,9 @@ function seeCompanies()
     var elmnt = document.getElementById("our-companies");
     elmnt.scrollIntoView();
 }
+
+function redirectTo(incomingPageName)
+{
+    var baseURL=window.location.protocol + "//" + window.location.host+"/";
+    window.open(baseURL+incomingPageName);
+}

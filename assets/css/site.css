@@ -711,7 +711,7 @@ footer .footer-heading-style {
 
 .our-companies-bg {
   opacity: 1;
-  background: transparent url(../images/our-company-bg.png) 0 0 no-repeat padding-box;
+  background: #ecebeb url(../images/our-company-bg.png) 0 0 no-repeat padding-box;
   min-height: 1080px;
   display: block;
 }
@@ -719,7 +719,7 @@ footer .footer-heading-style {
 .our-customer-bg {
   opacity: 1;
   background: transparent url(../images/valued_customer.png) 0 0 no-repeat padding-box;
-  min-height: 946px;
+  min-height: 720px;
   display: block;
 }
 
@@ -818,6 +818,40 @@ footer .footer-heading-style {
 }
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .ceo-message-crap .text-section.right-sided {
+    padding-left: 15px;
+    padding-right: 0px;
+  }
+
+  .copyright-section {
+    padding: 18px 15px;
+  }
+
+  .mobile-footer-responsive {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+  }
+
+  .banner-heading-style {
+    font-size: 32px;
+  }
+
+  .img-section-position {
+    position: relative;
+    top: 0;
+  }
+
+  .our-companies-bg {
+    padding-bottom: 20px;
+  }
+
+  .footer-link-sm {
+    margin-left: 0px;
+    margin-right: 16px;
+    display: inline-block;
+  }
+
   .our-customer-bg {
     opacity: 1;
     min-height: 100%;
@@ -865,6 +899,9 @@ footer .footer-heading-style {
     left: 25%;
     top: 30%;
   }
+}
+.pointer {
+  cursor: pointer !important;
 }
 
 /*# sourceMappingURL=site.css.map */
