@@ -79,6 +79,7 @@ $BASE_URL = "http://" . $_SERVER['SERVER_NAME'] . dirname($_SERVER["REQUEST_URI"
             </h4>
 
             <div class="contact-us-form-footer">
+                <form  action="../contact_mail.php" method="post">
 
                 <div class="form-group">
                     <input type="text" name="name" id="name-contact-us" class="form-control" placeholder="Name">
@@ -89,15 +90,16 @@ $BASE_URL = "http://" . $_SERVER['SERVER_NAME'] . dirname($_SERVER["REQUEST_URI"
                 </div>
 
                 <div class="form-group">
-                    <input style="height: 51px" name="message-contact-us" id="message" type="text" class="form-control"
+                    <input style="height: 51px" name="message" id="message" type="text" class="form-control"
                            placeholder="Message">
                 </div>
 
 
                 <div class="clearfix">
-                    <button onClick="sendContact();" class="submit-contact-form">Submit</button>
+                    <button type="submit"  class="submit-contact-form" name="submit" value="Submit">Submit</button>
+<!--                    <button type="submit"  class="submit-contact-form">Submit</button>-->
                 </div>
-
+                </form>
             </div>
 
         </div>

@@ -43,6 +43,10 @@ $director2_message = "I always did something I was a little not ready to do. I t
                         <button onclick="seeCompanies()" class="see-product-btn mt-15">See Companies</button>
     </div>
 </section>
+<!---->
+<!--<section class="container-fluid row-gutters-void">-->
+<!--    <img src="assets/images/process-ss-group.png" class="img-fluid">-->
+<!--</section>-->
 
 <section class="container-fluid row-gutters-void index-section-content">
 

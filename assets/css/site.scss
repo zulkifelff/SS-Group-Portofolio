@@ -877,6 +877,11 @@ footer .footer-heading-style {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
 
+  .ceo-message-crap .text-section {
+    padding-right: 15px;
+    margin-top: 20px;
+  }
+
   .ceo-message-crap .text-section.right-sided {
     padding-left: 15px;
     padding-right: 0px;
