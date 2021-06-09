@@ -68,6 +68,19 @@ $director2_message = "I always did something I was a little not ready to do. I t
 
             <div class="col-sm-12 col-md-12 col-lg-12 trivia-section">
                 <div class="media">
+
+                    <div class="media-body text-center animate__fadeInUp animate__slow wow" data-wow-duration="4s"
+                         style="">
+                        <span>400,000 Ton<br><strong>Raw Material Processed</strong>
+    Annually</span>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12 trivia-section">
+                <div class="media">
                     <img loading="lazy" class="mr-5 animate__flipInX animate__slow wow" data-wow-duration="2s"
                          src="assets/images/Icon%20awesome-money-bill-alt.svg" alt="Material Turnover">
                     <div class="media-body text-center animate__fadeInUp animate__slow wow" data-wow-duration="4s">
@@ -97,29 +110,29 @@ $director2_message = "I always did something I was a little not ready to do. I t
             <div class="mt-40 clearfix all-companies-profile row">
                 <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-1.png" alt="Industry 1" style="width:100%;">
-                    <div class="centered bottom text-company-shit">SS Oil</div>
+                    <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">SS Oil</div>
                 </div>
                 <div onclick="redirectTo('company-detail.php')"
                      class=" pointer col-md-4 each-company-shit row-gutters-void wow animate__fadeIn"
                      data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-2.png" alt="Industry 1" style="width:100%;">
-                    <div class="centered bottom text-company-shit">SS Feed</div>
+                    <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">SS Feed</div>
                 </div>
                 <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-3.png" alt="Industry 1" style="width:100%;">
-                    <div class="centered bottom text text-company-shit">Spinning</div>
+                    <div class="centered bottom text text-company-shit wow animate__fadeIn" data-wow-duration="3s">Spinning</div>
                 </div>
                 <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-1.png" alt="Industry 1" style="width:100%;">
-                    <div class="centered bottom text-company-shit">Agricultural Farm</div>
+                    <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">Agricultural Farm</div>
                 </div>
                 <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-2.png" alt="Industry 1" style="width:100%;">
-                    <div class="centered bottom text-company-shit">Cooking Oil</div>
+                    <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">Cooking Oil</div>
                 </div>
                 <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-3.png" alt="Industry 1" style="width:100%;">
-                    <div class="centered bottom text-company-shit">Sikandar Commodities</div>
+                    <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">Sikandar Commodities</div>
                 </div>
 
             </div>
@@ -167,7 +180,7 @@ $director2_message = "I always did something I was a little not ready to do. I t
 
             </div>
 
-<!--            Director -->
+            <!--            Director -->
             <div class="row mt-100 d-none d-sm-block">
 
                 <div class="col-sm-12 col-md-4  border-style-partial-images-ceo">
@@ -234,7 +247,7 @@ $director2_message = "I always did something I was a little not ready to do. I t
 
             </div>
 
-<!--            Director 2-->
+            <!--            Director 2-->
             <div class="row mt-100">
                 <div class="col-sm-12 col-md-6 text-section">
 
@@ -350,21 +363,23 @@ $director2_message = "I always did something I was a little not ready to do. I t
                 <div class=" text-customer-shit">Zubair Feed</div>
             </div>
 
-            <!--                <div class="col-md-2 each-customer-shit row-gutters-void">-->
-            <!--                    <img loading="lazy" src="assets/images/customer-8/free-logos-png-1-Transparent-Images.png" alt="Industry 1" style="width:100%;">-->
-            <!--                    <div class=" text-customer-shit">Al Noor Poultry Services</div>-->
-            <!--                </div>-->
+            <div class="col-md-2 each-customer-shit row-gutters-void">
+                <img loading="lazy" src="assets/images/all-customer/friesland-campana.png" alt="Friesland Campina"
+                     style="width:100%;">
+                <div class=" text-customer-shit">Friesland Campina</div>
+            </div>
 
-            <!--                <div class="col-md-2 each-customer-shit row-gutters-void">-->
-            <!--                    <img loading="lazy" src="assets/images/customer-6/travels-logo-png-for-business-design-template-03d1ab18244e3126af5a7b41554e7c99_screen.png" alt="Industry 1" style="width:100%;">-->
-            <!--                    <div class=" text-customer-shit">Zubair Feeds Mills Pvt. Ltd.</div>-->
-            <!--                </div>-->
+            <div class="col-md-2 each-customer-shit row-gutters-void">
+                <img loading="lazy" src="assets/images/all-customer/master-paint.png" alt="Master Paint"
+                     style="width:100%;">
+                <div class=" text-customer-shit">Master Paint</div>
+            </div>
 
-            <!--                <div class="col-md-2 each-customer-shit row-gutters-void">-->
-            <!--                    <img loading="lazy" src="assets/images/customer-7/google-stadia-logo-hd4.png" alt="Industry 1" style="width:100%;">-->
-            <!--                    <div class=" text-customer-shit">Hi-Tech Feeds Mills Pvt. Ltd.</div>-->
-            <!--                </div>-->
-
+            <div class="col-md-2 each-customer-shit row-gutters-void">
+                <img loading="lazy" src="assets/images/all-customer/us-denim-logo.png" alt="US Denim"
+                     style="width:100%;">
+                <div class=" text-customer-shit">US Denim</div>
+            </div>
 
         </div>
 
