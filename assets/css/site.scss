@@ -644,7 +644,7 @@ footer .footer-heading-style {
 }
 
 .index-section-content {
-  background: #2E2E2E 0% 0% no-repeat padding-box;
+  background: #eaeaea 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
@@ -668,6 +668,10 @@ footer .footer-heading-style {
   font-family: "Roboto Slab", serif;
   letter-spacing: 0px;
   color: #FDB514;
+}
+
+.ceo-message-crap {
+  background: #2E2E2E 0% 0% no-repeat padding-box;
 }
 
 .ceo-message-crap .message-text {
@@ -751,7 +755,7 @@ footer .footer-heading-style {
 
 .our-companies-bg {
   opacity: 1;
-  background: #ecebeb  url(../images/our-company-bg.png) 0 0 no-repeat padding-box;
+  background: #ecebeb url(../images/our-company-bg.png) 0 0 no-repeat padding-box;
   min-height: 1080px;
   display: block;
   //align-items: center;
@@ -869,13 +873,31 @@ footer .footer-heading-style {
 
   .each-customer-shit:nth-child(-n+5) {
 
-    display: none;
+    //display: none;
   }
 
 }
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+  .trivia-section {
+
+    margin-right: 0px;
+    max-width: 100%;
+    padding: 30px 40px;
+  }
+
+  .index-section-content-positioning {
+    position: relative;
+    top: 0px;
+  }
+
+  .trivia-section span {
+
+    font-size: 18px;
+
+  }
 
   .ceo-message-crap .text-section {
     padding-right: 15px;
@@ -935,6 +957,52 @@ footer .footer-heading-style {
     top: 20%;
   }
 
+  .border-style-partial-images-ceo .left:before {
+    border-color: transparent;
+  }
+
+
+  .border-style-partial-images-ceo .right:before {
+    border-color: transparent;
+  }
+
+
+  .border-style-partial-images-ceo .top:before {
+    border-color: transparent;
+  }
+
+  .border-style-partial-images-ceo .bottom:before {
+    border-color: transparent;
+  }
+
+  .border-style-partial-images-ceo img.img-fluid
+  {
+    max-width: 60%;
+  }
+
+  .border-style-partial-images-ceo
+  {
+    text-align: center;
+  }
+
+
+  .ceo-message-crap .message-punctuation {
+
+    font-size: 30px;
+  }
+
+  .ceo-message-crap .message-punctuation {
+
+    font-size: 30px;
+
+  }
+
+  .ceo-message-crap .message-text {
+    text-align: center;
+    font-size: 12px;
+
+  }
+
 
   //.banner-detail-page {
   //  background-repeat: no-repeat;
@@ -952,7 +1020,7 @@ footer .footer-heading-style {
 
   .each-customer-shit:nth-child(-n+5) {
 
-    display: none;
+    //display: none;
   }
 
 }
@@ -979,7 +1047,23 @@ footer .footer-heading-style {
     padding: 60px 80px;
   }
 
+}
 
+/* Potrait */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+
+  .trivia-section {
+    background: #fdb514 0% 0% no-repeat padding-box;
+  }
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .trivia-section {
+    background: #fdb514 0% 0% no-repeat padding-box;
+    max-width: 100%;
+  }
 }
 
 /* ----------- iPad  ----------- */
@@ -1022,4 +1106,11 @@ footer .footer-heading-style {
 
 .pointer {
   cursor: pointer !important;
+}
+
+@media (min-width: 576px)
+{
+  .d-sm-block {
+    display: flex!important;
+  }
 }
