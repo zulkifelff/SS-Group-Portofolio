@@ -37,16 +37,13 @@ $director2_message = "I always did something I was a little not ready to do. I t
 <?php include 'shared/header.php'; ?>
 <section class="container-fluid row-gutters-void banner-index-page">
     <div class="container  page-banner-container">
-        <h2 class="banner-heading-style animate__fadeInUp animate__slow wow" data-wow-duration="3s">
-<!--            Building-->
+        <h2 class="banner-heading-style animate__fadeInUpBig  wow " data-wow-duration="3s">
             <span
-                    class="true-color">Whatever</span></h2>
-        <h2 class="banner-heading-style animate__fadeInUp animate__slow wow" data-wow-duration="3s">It Takes
-<!--            <span-->
-<!--                    class="true-color">Community</span>-->
+                    class="true-color ">Whatever</span></h2>
+        <h2 class="banner-heading-style animate__fadeInUpBig  wow" data-wow-duration="3s">It Takes
         </h2>
 
-        <button onclick="seeCompanies()" class="see-product-btn mt-15">See Companies</button>
+        <button onclick="seeCompanies()" class="see-product-btn mt-15 wow animate__slideInUp" data-wow-duration="4s">See Companies</button>
     </div>
 </section>
 <!---->
@@ -62,7 +59,7 @@ $director2_message = "I always did something I was a little not ready to do. I t
             <div class="col-sm-12 col-md-12 col-lg-12  trivia-section">
 
                 <div class="media">
-                    <img loading="lazy" class="mr-5 animate__zoomIn wow " data-wow-duration="2s"
+                    <img loading="lazy" class="mr-3 animate__zoomIn wow " data-wow-duration="2s"
                          src="assets/images/Icon%20material-group.svg" alt="Dynamic Employee">
                     <div class="media-body text-center animate__zoomIn wow" data-wow-duration="2s">
                         <span><strong>2,200</strong> Dynamic Employees</span>
@@ -79,21 +76,29 @@ $director2_message = "I always did something I was a little not ready to do. I t
     Annually</span>
                     </div>
                 </div>
-
-
             </div>
 
             <div class="col-sm-12 col-md-12 col-lg-12 trivia-section">
                 <div class="media">
-                    <img loading="lazy" class="mr-5 animate__zoomIn wow" data-wow-duration="2s"
+                    <img loading="lazy" class="mr-3 animate__zoomIn wow" data-wow-duration="2s"
                          src="assets/images/Icon%20awesome-money-bill-alt.svg" alt="Material Turnover">
                     <div class="media-body text-center  animate__zoomIn wow" data-wow-duration="2s">
                         <span>PKR <strong>22 Billion</strong> Turnover</span>
                     </div>
                 </div>
-
-
             </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12 trivia-section">
+                <div class="media">
+
+                    <div class="media-body text-center animate__zoomIn wow" data-wow-duration="3s"
+                         style="">
+                        <span>1000 kW<br><strong>Renewable Energy</strong> Produced</span>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
     <!--    Our Companies-->
@@ -114,29 +119,39 @@ $director2_message = "I always did something I was a little not ready to do. I t
             <div class="mt-40 clearfix all-companies-profile row">
                 <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-1.png" alt="Industry 1" style="width:100%;">
-                    <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">SS Oil</div>
+                    <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">SS Oil
+                    </div>
                 </div>
                 <div onclick="redirectTo('company-detail.php')"
                      class=" pointer col-md-4 each-company-shit row-gutters-void wow animate__fadeIn"
                      data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-2.png" alt="Industry 1" style="width:100%;">
-                    <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">SS Feed</div>
+                    <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">SS Feed
+                    </div>
                 </div>
                 <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-3.png" alt="Industry 1" style="width:100%;">
-                    <div class="centered bottom text text-company-shit wow animate__fadeIn" data-wow-duration="3s">Standard Spinning Mills</div>
+                    <div class="centered bottom text text-company-shit wow animate__fadeIn" data-wow-duration="3s">
+                        Standard Spinning Mills
+                    </div>
                 </div>
                 <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-1.png" alt="Industry 1" style="width:100%;">
-                    <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">SS Agricultural Farm</div>
+                    <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">SS
+                        Agricultural Farm
+                    </div>
                 </div>
                 <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-2.png" alt="Industry 1" style="width:100%;">
-                    <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">SS Edible Oil</div>
+                    <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">SS Edible
+                        Oil
+                    </div>
                 </div>
                 <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-3.png" alt="Industry 1" style="width:100%;">
-                    <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">Sikandar Commodities</div>
+                    <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">Sikandar
+                        Commodities
+                    </div>
                 </div>
 
             </div>
@@ -185,105 +200,105 @@ $director2_message = "I always did something I was a little not ready to do. I t
             </div>
 
             <!--            Director -->
-<!--            <div class="row mt-100 d-none d-sm-block">-->
-<!---->
-<!--                <div class="col-sm-12 col-md-4  border-style-partial-images-ceo">-->
-<!--                <span class="left">-->
-<!--                    <span class="top">-->
-<!--                        <span class="right">-->
-<!--                            <span class="bottom">-->
-<!--                                <img loading="lazy" src="assets/images/people/director-man.png" alt="Director Avatar"-->
-<!--                                     class="img-fluid wow animate__fadeInDown" data-wow-duration="3s">-->
-<!--                            </span>-->
-<!--                        </span>-->
-<!--                    </span>-->
-<!--                </span>-->
-<!--                </div>-->
-<!---->
-<!--                <div class="col-sm-12 col-md-6 offset-md-2 text-section right-sided">-->
-<!---->
-<!--                    <h3 class="message-heading">-->
-<!--                        Director's Message-->
-<!--                    </h3>-->
-<!---->
-<!--                    <p class="message-punctuation text-left">&#34;</p>-->
-<!--                    <p class="message-text animate__fadeInLeft wow" data-wow-duration="2s">-->
-<!--                        --><?php
-//                        echo $director1_message
-//                        ?>
-<!--                    </p>-->
-<!--                    <p class="message-punctuation text-right">&#34;</p>-->
-<!---->
-<!---->
-<!--                </div>-->
-<!---->
-<!--            </div>-->
-<!--            <div class="row mt-100 d-block d-sm-none">-->
-<!--                <div class="col-sm-12 col-md-6 text-section">-->
-<!---->
-<!--                    <h3 class="message-heading director-position">-->
-<!--                        Directors's Message-->
-<!--                    </h3>-->
-<!---->
-<!--                    <p class="message-punctuation text-left">&#34;</p>-->
-<!--                    <p class="message-text animate__fadeInLeft wow" data-wow-duration="2s">-->
-<!--                        --><?php
-//                        print_r($director1_message)
-//                        ?>
-<!--                    </p>-->
-<!--                    <p class="message-punctuation text-right">&#34;</p>-->
-<!---->
-<!---->
-<!--                </div>-->
-<!---->
-<!--                <div class="col-sm-12 col-md-4 offset-md-2 border-style-partial-images-ceo">-->
-<!--                <span class="left">-->
-<!--                    <span class="top">-->
-<!--                        <span class="right">-->
-<!--                            <span class="bottom">-->
-<!--                                <img loading="lazy" src="assets/images/people/director-man.png" alt="Director 2 Avatar"-->
-<!--                                     class="img-fluid wow animate__fadeInDown" data-wow-duration="3s">-->
-<!--                            </span>-->
-<!--                        </span>-->
-<!--                    </span>-->
-<!--                </span>-->
-<!--                </div>-->
-<!---->
-<!--            </div>-->
+            <!--            <div class="row mt-100 d-none d-sm-block">-->
+            <!---->
+            <!--                <div class="col-sm-12 col-md-4  border-style-partial-images-ceo">-->
+            <!--                <span class="left">-->
+            <!--                    <span class="top">-->
+            <!--                        <span class="right">-->
+            <!--                            <span class="bottom">-->
+            <!--                                <img loading="lazy" src="assets/images/people/director-man.png" alt="Director Avatar"-->
+            <!--                                     class="img-fluid wow animate__fadeInDown" data-wow-duration="3s">-->
+            <!--                            </span>-->
+            <!--                        </span>-->
+            <!--                    </span>-->
+            <!--                </span>-->
+            <!--                </div>-->
+            <!---->
+            <!--                <div class="col-sm-12 col-md-6 offset-md-2 text-section right-sided">-->
+            <!---->
+            <!--                    <h3 class="message-heading">-->
+            <!--                        Director's Message-->
+            <!--                    </h3>-->
+            <!---->
+            <!--                    <p class="message-punctuation text-left">&#34;</p>-->
+            <!--                    <p class="message-text animate__fadeInLeft wow" data-wow-duration="2s">-->
+            <!--                        --><?php
+            //                        echo $director1_message
+            //                        ?>
+            <!--                    </p>-->
+            <!--                    <p class="message-punctuation text-right">&#34;</p>-->
+            <!---->
+            <!---->
+            <!--                </div>-->
+            <!---->
+            <!--            </div>-->
+            <!--            <div class="row mt-100 d-block d-sm-none">-->
+            <!--                <div class="col-sm-12 col-md-6 text-section">-->
+            <!---->
+            <!--                    <h3 class="message-heading director-position">-->
+            <!--                        Directors's Message-->
+            <!--                    </h3>-->
+            <!---->
+            <!--                    <p class="message-punctuation text-left">&#34;</p>-->
+            <!--                    <p class="message-text animate__fadeInLeft wow" data-wow-duration="2s">-->
+            <!--                        --><?php
+            //                        print_r($director1_message)
+            //                        ?>
+            <!--                    </p>-->
+            <!--                    <p class="message-punctuation text-right">&#34;</p>-->
+            <!---->
+            <!---->
+            <!--                </div>-->
+            <!---->
+            <!--                <div class="col-sm-12 col-md-4 offset-md-2 border-style-partial-images-ceo">-->
+            <!--                <span class="left">-->
+            <!--                    <span class="top">-->
+            <!--                        <span class="right">-->
+            <!--                            <span class="bottom">-->
+            <!--                                <img loading="lazy" src="assets/images/people/director-man.png" alt="Director 2 Avatar"-->
+            <!--                                     class="img-fluid wow animate__fadeInDown" data-wow-duration="3s">-->
+            <!--                            </span>-->
+            <!--                        </span>-->
+            <!--                    </span>-->
+            <!--                </span>-->
+            <!--                </div>-->
+            <!---->
+            <!--            </div>-->
 
             <!--            Director 2-->
-<!--            <div class="row mt-100">-->
-<!--                <div class="col-sm-12 col-md-6 text-section">-->
-<!---->
-<!--                    <h3 class="message-heading director-position">-->
-<!--                        Directors's Message-->
-<!--                    </h3>-->
-<!---->
-<!--                    <p class="message-punctuation text-left">&#34;</p>-->
-<!--                    <p class="message-text animate__fadeInLeft wow" data-wow-duration="2s">-->
-<!--                        --><?php
-//                        print_r($director2_message)
-//                        ?>
-<!--                    </p>-->
-<!--                    <p class="message-punctuation text-right">&#34;</p>-->
-<!---->
-<!---->
-<!--                </div>-->
-<!---->
-<!--                <div class="col-sm-12 col-md-4 offset-md-2 border-style-partial-images-ceo">-->
-<!--                <span class="left">-->
-<!--                    <span class="top">-->
-<!--                        <span class="right">-->
-<!--                            <span class="bottom">-->
-<!--                                <img loading="lazy" src="assets/images/people/director2-man.png" alt="Director 2 Avatar"-->
-<!--                                     class="img-fluid wow animate__fadeInDown" data-wow-duration="3s">-->
-<!--                            </span>-->
-<!--                        </span>-->
-<!--                    </span>-->
-<!--                </span>-->
-<!--                </div>-->
-<!---->
-<!--            </div>-->
+            <!--            <div class="row mt-100">-->
+            <!--                <div class="col-sm-12 col-md-6 text-section">-->
+            <!---->
+            <!--                    <h3 class="message-heading director-position">-->
+            <!--                        Directors's Message-->
+            <!--                    </h3>-->
+            <!---->
+            <!--                    <p class="message-punctuation text-left">&#34;</p>-->
+            <!--                    <p class="message-text animate__fadeInLeft wow" data-wow-duration="2s">-->
+            <!--                        --><?php
+            //                        print_r($director2_message)
+            //                        ?>
+            <!--                    </p>-->
+            <!--                    <p class="message-punctuation text-right">&#34;</p>-->
+            <!---->
+            <!---->
+            <!--                </div>-->
+            <!---->
+            <!--                <div class="col-sm-12 col-md-4 offset-md-2 border-style-partial-images-ceo">-->
+            <!--                <span class="left">-->
+            <!--                    <span class="top">-->
+            <!--                        <span class="right">-->
+            <!--                            <span class="bottom">-->
+            <!--                                <img loading="lazy" src="assets/images/people/director2-man.png" alt="Director 2 Avatar"-->
+            <!--                                     class="img-fluid wow animate__fadeInDown" data-wow-duration="3s">-->
+            <!--                            </span>-->
+            <!--                        </span>-->
+            <!--                    </span>-->
+            <!--                </span>-->
+            <!--                </div>-->
+            <!---->
+            <!--            </div>-->
         </div>
 
 
