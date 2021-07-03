@@ -819,28 +819,6 @@ footer .footer-heading-style {
   right: auto;
 }
 
-.each-customer-shit {
-  border-right: 1px solid rgba(255, 255, 255, 0.18);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.22);
-}
-
-.each-customer-shit:nth-child(6n) {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.22);
-  border-right: 0px solid rgba(255, 255, 255, 0.18);
-}
-
-.each-customer-shit:nth-child(12n+1) {
-  border-bottom: 0px solid rgba(255, 255, 255, 0.22);
-}
-
-.each-customer-shit:nth-child(12n+2) {
-  border-bottom: 0px solid rgba(255, 255, 255, 0.22);
-}
-
-.each-customer-shit:nth-child(12n+3) {
-  border-bottom: 0px solid rgba(255, 255, 255, 0.22);
-}
-
 .text-customer-shit {
   text-align: center;
   font-size: 15px;
@@ -855,7 +833,7 @@ footer .footer-heading-style {
 }
 
 .each-customer-shit {
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 
 .all-customer-profile {

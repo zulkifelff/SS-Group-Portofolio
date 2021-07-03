@@ -1,3 +1,8 @@
+<div class="loaderHolder d-none" id="loaderHolder">
+    <div class="loading"></div>
+</div>
+
+
 <nav class="navbar navbar-expand-lg  fixed-top navbar-dark">
     <a class="navbar-brand" href="/"><img src="assets/images/logo.png" alt="Logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse"
