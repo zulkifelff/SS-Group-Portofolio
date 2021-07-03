@@ -215,34 +215,34 @@ html {
 }
 
 .footer-link-sm.facebook {
-  width: 9.8px;
-  height: 17px;
+  width: 16px;
+  height: 16px;
   background-repeat: no-repeat;
   background-position: 0% 0%;
   background-origin: padding-box;
-  background-image: url("../images/Icon feather-facebook.svg");
+  background-image: url("../images/Footer-Icons/facebook.png");
   background-color: transparent;
   background-clip: padding-box;
 }
 
 .footer-link-sm.twitter {
-  width: 20.6px;
-  height: 17.168px;
+  width: 16px;
+  height: 16px;
   background-repeat: no-repeat;
   background-position: 0% 0%;
   background-origin: padding-box;
-  background-image: url("../images/Icon feather-twitter.svg");
+  background-image: url("../images/Footer-Icons/twitter.png");
   background-color: transparent;
   background-clip: padding-box;
 }
 
 .footer-link-sm.instagram {
-  width: 17px;
-  height: 17px;
+  width: 16px;
+  height: 16px;
   background-repeat: no-repeat;
   background-position: 0% 0%;
   background-origin: padding-box;
-  background-image: url("../images/Icon feather-instagram.svg");
+  background-image: url("../images/Footer-Icons/instagram.png");
   background-color: transparent;
   background-clip: padding-box;
 }

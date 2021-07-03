@@ -79,26 +79,26 @@ $BASE_URL = "http://" . $_SERVER['SERVER_NAME'] . dirname($_SERVER["REQUEST_URI"
             </h4>
 
             <div class="contact-us-form-footer">
-                <form  action="../contact_mail.php" method="post">
+                <form action="../contact_mail.php" method="post">
 
-                <div class="form-group">
-                    <input type="text" name="name" id="name-contact-us" class="form-control" placeholder="Name">
-                </div>
+                    <div class="form-group">
+                        <input type="text" name="name" id="name-contact-us" class="form-control" placeholder="Name">
+                    </div>
 
-                <div class="form-group">
-                    <input type="email" name="email" id="email-contact-us" class="form-control" placeholder="Email">
-                </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="email-contact-us" class="form-control" placeholder="Email">
+                    </div>
 
-                <div class="form-group">
-                    <input style="height: 51px" name="message" id="message" type="text" class="form-control"
-                           placeholder="Message">
-                </div>
+                    <div class="form-group">
+                        <input style="height: 51px" name="message" id="message" type="text" class="form-control"
+                               placeholder="Message">
+                    </div>
 
 
-                <div class="clearfix">
-                    <button type="submit"  class="submit-contact-form" name="submit" value="Submit">Submit</button>
-<!--                    <button type="submit"  class="submit-contact-form">Submit</button>-->
-                </div>
+                    <div class="clearfix">
+                        <button type="submit" class="submit-contact-form" name="submit" value="Submit">Submit</button>
+                        <!--                    <button type="submit"  class="submit-contact-form">Submit</button>-->
+                    </div>
                 </form>
             </div>
 
@@ -140,14 +140,12 @@ $BASE_URL = "http://" . $_SERVER['SERVER_NAME'] . dirname($_SERVER["REQUEST_URI"
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
         crossorigin="anonymous"></script>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"-->
-<!--        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"-->
-<!--        crossorigin="anonymous"></script>-->
-<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"-->
-<!--        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"-->
-<!--        crossorigin="anonymous"></script>-->
-
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!--<script src="assets/scripts/site.js"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"
+        integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
