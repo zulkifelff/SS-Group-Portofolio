@@ -34,7 +34,7 @@ $ceo_message = "Our continued augmentation and success depends not only on the w
 $director1_message = "We need to accept that we won’t always make the right decisions, that we’ll screw up royally sometimes – understanding that failure is not the opposite of success, it’s part of success.";
 $director2_message = "I always did something I was a little not ready to do. I think that’s how you grow. When there’s that moment of ‘Wow, I’m not really sure I can do this,’ and you push through those moments, that’s when you have a breakthrough.";
 ?>
-<?php include 'shared/header.php'; ?>
+<?php include 'shared/header_new.php'; ?>
 <section class="container-fluid row-gutters-void banner-index-page">
     <div class="container  page-banner-container">
         <h2 class="banner-heading-style animate__fadeInUpBig  wow " data-wow-duration="3s">
@@ -205,7 +205,7 @@ $director2_message = "I always did something I was a little not ready to do. I t
     </div>
 
     <!--    Our Customer-->
-    <div class="our-companies our-customer-bg container-fluid">
+    <div id="our-customer-section" class="our-companies our-customer-bg container-fluid">
 
         <div class="container clearfix text-center">
             <div class="mt-60 clearfix positioning-text-our-customer text-center">

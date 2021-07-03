@@ -5,7 +5,7 @@ jQuery(document).ready(function () {
 });
 
 jQuery(window).on('scroll', function () {
-    if (jQuery(window).scrollTop() > 10) {
+    if (jQuery(window).scrollTop() > 0) {
         jQuery('.navbar').addClass('active');
     } else {
         jQuery('.navbar').removeClass('active');

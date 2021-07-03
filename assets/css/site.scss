@@ -58,6 +58,17 @@ body {
 }
 
 
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+}
+
+
 .pull-left {
   float: left;
 }
@@ -858,7 +869,25 @@ footer .footer-heading-style {
 }
 
 .each-customer-shit {
+  border-right: 1px solid rgba(255, 255, 255, 0.18);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.22);
+}
 
+.each-customer-shit:nth-child(6n) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.22);
+  border-right: 0px solid rgba(255, 255, 255, 0.18);
+}
+
+.each-customer-shit:nth-child(12n+1) {
+  border-bottom: 0px solid rgba(255, 255, 255, 0.22);
+}
+
+.each-customer-shit:nth-child(12n+2) {
+  border-bottom: 0px solid rgba(255, 255, 255, 0.22);
+}
+
+.each-customer-shit:nth-child(12n+3) {
+  border-bottom: 0px solid rgba(255, 255, 255, 0.22);
 }
 
 .text-customer-shit {
@@ -875,9 +904,7 @@ footer .footer-heading-style {
 }
 
 .each-customer-shit {
-  margin-bottom: 30px;
-
-
+  margin-bottom: 0px;
 }
 
 .all-customer-profile {
@@ -993,13 +1020,11 @@ footer .footer-heading-style {
     border-color: transparent;
   }
 
-  .border-style-partial-images-ceo img.img-fluid
-  {
+  .border-style-partial-images-ceo img.img-fluid {
     max-width: 60%;
   }
 
-  .border-style-partial-images-ceo
-  {
+  .border-style-partial-images-ceo {
     text-align: center;
   }
 
@@ -1125,10 +1150,9 @@ footer .footer-heading-style {
   cursor: pointer !important;
 }
 
-@media (min-width: 576px)
-{
+@media (min-width: 576px) {
   .d-sm-block {
-    display: flex!important;
+    display: flex !important;
   }
 }
 
@@ -1136,6 +1160,7 @@ footer .footer-heading-style {
 .typing {
   position: relative;
 }
+
 .typing::after {
   content: "|";
   position: absolute;
@@ -1145,13 +1170,22 @@ footer .footer-heading-style {
   background: grey;
   animation: typing 4s steps(16) forwards, caret 1s infinite;
 }
+
 @keyframes typing {
   to {
     width: 0;
   }
 }
+
 @keyframes caret {
   50% {
     color: transparent;
   }
+}
+
+
+@media all and (max-device-width: 992px){
+  //.navbar {
+  //  background: #000000;
+  //}
 }

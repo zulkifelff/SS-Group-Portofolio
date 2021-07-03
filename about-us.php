@@ -27,7 +27,7 @@
     <title>SS Group</title>
 </head>
 <body>
-<?php include 'shared/header.php'; ?>
+<?php include 'shared/header_new.php'; ?>
 
     <div class="banner-detail-page">
         <div class="container  page-banner-container">

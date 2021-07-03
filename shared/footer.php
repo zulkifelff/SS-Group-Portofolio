@@ -4,7 +4,7 @@ $BASE_URL = "http://" . $_SERVER['SERVER_NAME'] . dirname($_SERVER["REQUEST_URI"
 ?>
 
 
-<footer class="clearfix">
+<footer class="clearfix" id="footer-section">
     <div class="container clearfix">
         <div class="footer-logo-class">
             <img src="assets/images/logo_2.png" alt="SS Group Logo">
