@@ -23,16 +23,17 @@
             </li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdownMenuLink" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Our Companies
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="javascript:void(0)">SS Oil</a>
                     <a target="_blank" class="dropdown-item" href="/company-detail.php">SS Feed</a>
-                    <a  target="_blank" class="dropdown-item" href="/ss-mills.php">Standard Spinning Mills</a>
-                    <a class="dropdown-item" href="javascript:void(0)">SS Agricultural Farm</a>
-                    <a class="dropdown-item" href="javascript:void(0)">SS Edible Oil</a>
-                    <a class="dropdown-item" href="javascript:void(0)">Sikandar Commodities</a>
+                    <a target="_blank" class="dropdown-item" href="/ss-mills.php">Standard Spinning Mills</a>
+                    <a target="_blank" class="dropdown-item" href="/ss-agriculture.php">SS Agricultural Farm</a>
+                    <a target="_blank" class="dropdown-item" href="/ss-oil.php">SS Edible Oil</a>
+                    <a target="_blank" class="dropdown-item" href="/sikandar-commo.php">Sikandar Commodities</a>
                 </div>
             </li>
 

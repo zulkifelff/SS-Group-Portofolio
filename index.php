@@ -117,7 +117,8 @@ $director2_message = "I always did something I was a little not ready to do. I t
             </div>
 
             <div class="mt-40 clearfix all-companies-profile row">
-                <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
+                <div
+                        class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-1.png" alt="Industry 1" style="width:100%;">
                     <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">SS Oil
                     </div>
@@ -129,25 +130,29 @@ $director2_message = "I always did something I was a little not ready to do. I t
                     <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">SS Feed
                     </div>
                 </div>
-                <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
+                <div onclick="redirectTo('ss-mills.php')"
+                        class="pointer col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-3.png" alt="Industry 1" style="width:100%;">
                     <div class="centered bottom text text-company-shit wow animate__fadeIn" data-wow-duration="3s">
                         Standard Spinning Mills
                     </div>
                 </div>
-                <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
+                <div onclick="redirectTo('ss-agriculture.php')"
+                        class="pointer col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-1.png" alt="Industry 1" style="width:100%;">
                     <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">SS
                         Agricultural Farm
                     </div>
                 </div>
-                <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
+                <div onclick="redirectTo('ss-oil.php')"
+                        class="pointer col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-2.png" alt="Industry 1" style="width:100%;">
                     <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">SS Edible
                         Oil
                     </div>
                 </div>
-                <div class=" col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
+                <div onclick="redirectTo('sikandar-commo.php')"
+                        class="pointer col-md-4 each-company-shit row-gutters-void wow animate__fadeIn" data-wow-duration="2s">
                     <img loading="lazy" src="assets/images/industry-3.png" alt="Industry 1" style="width:100%;">
                     <div class="centered bottom text-company-shit wow animate__fadeIn" data-wow-duration="3s">Sikandar
                         Commodities
