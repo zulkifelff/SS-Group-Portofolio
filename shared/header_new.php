@@ -29,7 +29,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="javascript:void(0)">SS Oil</a>
                     <a target="_blank" class="dropdown-item" href="/company-detail.php">SS Feed</a>
-                    <a class="dropdown-item" href="javascript:void(0)">Standard Spinning Mills</a>
+                    <a  target="_blank" class="dropdown-item" href="/ss-mills.php">Standard Spinning Mills</a>
                     <a class="dropdown-item" href="javascript:void(0)">SS Agricultural Farm</a>
                     <a class="dropdown-item" href="javascript:void(0)">SS Edible Oil</a>
                     <a class="dropdown-item" href="javascript:void(0)">Sikandar Commodities</a>
