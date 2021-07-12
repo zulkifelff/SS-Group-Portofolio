@@ -28,7 +28,7 @@
                     Our Companies
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="javascript:void(0)">SS Oil</a>
+                    <a target="_blank" class="dropdown-item" href="/ss-oil.php">SS Oil</a>
                     <a target="_blank" class="dropdown-item" href="/company-detail.php">SS Feed</a>
                     <a target="_blank" class="dropdown-item" href="/ss-mills.php">Standard Spinning Mills</a>
                     <a target="_blank" class="dropdown-item" href="/ss-agriculture.php">SS Agricultural Farm</a>
