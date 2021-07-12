@@ -43,9 +43,9 @@
 
         <div class="col-sm-12 col-md-12 col-lg-6 py-0 border-style-partial top left mt-70">
 
-            <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">
-                SS Feed Mills has installed state of the art feed producing machinery imported from China. The present production capacity of the Mills is 42.5 M Ton per hour. The Mills produces poultry feed for Broiler birds from starting age to growing and finishing stages, as well as for layer poultry feed. The company has complete range of mesh and pellet feed for both poultry and cattle. The company uses the best formulations for feed production according to the requirement of age and type of birds and animals.
-            </p>
+<!--            <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">-->
+<!--                SS Feed Mills has installed state of the art feed producing machinery imported from China. The present production capacity of the Mills is 42.5 M Ton per hour. The Mills produces poultry feed for Broiler birds from starting age to growing and finishing stages, as well as for layer poultry feed. The company has complete range of mesh and pellet feed for both poultry and cattle. The company uses the best formulations for feed production according to the requirement of age and type of birds and animals.-->
+<!--            </p>-->
 
             <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">
                 SS Feed Mills (Pvt) Ltd. Was incorporated on December 16, 2014 as private limited company.
@@ -65,6 +65,157 @@
         </div>
 
         </div>
+    </div>
+
+    <!--        Our Mission-->
+    <div class="row">
+
+        <div class="col-sm-12 col-md-12 col-lg-12 py-0 top left">
+
+            <h2>Our Mission</h2>
+            <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">
+            <ul>
+                <li>
+                    To find and implement best available resources viz a viz plant, grains, meals and other materials to bring out the best values for our customers.
+
+                </li>
+
+                <li>
+                    Innovation and research.
+                </li>
+
+                <li>
+                    Keep working to produce the best.
+                </li>
+
+            </ul>
+
+            </p>
+
+
+        </div>
+
+    </div>
+
+    <!--        Our Vision-->
+    <div class="row mt-25">
+
+        <div class="col-sm-12 col-md-12 col-lg-12 py-0  top left">
+
+            <h2>Our Vision</h2>
+            <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">
+            <ul>
+                <li>
+                    Our manifestation is “Precision in Nutrition”.
+
+                </li>
+
+                <li>
+                    To meet our goal we took every step, keeping in mind, the excellence in producing and delivering the best to the customers.
+
+                </li>
+
+
+            </ul>
+
+            </p>
+
+
+        </div>
+
+    </div>
+
+    <!--        Our Quality-->
+    <div class="row mt-25">
+
+        <div class="col-sm-12 col-md-12 col-lg-12 py-0  top left">
+
+            <h2>Quality</h2>
+            <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">
+                The continuous stringent mechanism of check and balance throughout the complete production process ensures quality of feed.
+                At SS Feed we have NO COMPROMISE ON QUALITY Policy. We have strong belief in continuous improvement in principal of quality check.
+            </p>
+
+
+        </div>
+
+    </div>
+
+    <!--        Our Products-->
+    <div class="row mt-25">
+
+        <div class="col-sm-12 col-md-12 col-lg-12 py-0  top left">
+
+            <h2>Products</h2>
+            <h4>Poultry</h4>
+            <p class="paragraph-text wow animate__fadeIn" data-wow-duration="4s">
+            <h6>Layer</h6>
+            <ul>
+                <li>
+                    Starter
+                </li>
+
+                <li>
+                    Grower
+                </li>
+            </ul>
+
+            <h6>BROILER</h6>
+            <ul>
+                <li>
+                    Starter
+                </li>
+
+                <li>
+                    Grower
+                </li>
+
+                <li>
+                    Finisher
+                </li>
+            </ul>
+
+            <h6>BREEDER</h6>
+            <ul>
+                <li>
+                    Broiler breeder starter fattening
+                </li>
+
+                <li>
+                    Broiler breeder starter male
+                </li>
+
+                <li>
+                    Broiler breeder grower
+                </li>
+
+                <li>
+                    Layer breeder
+                </li>
+
+                <li>
+                    Layer breeder male
+                </li>
+            </ul>
+
+
+            </p>
+
+            <h4>CATTLE</h4>
+            <p class="paragraph-text wow animate__fadeIn" data-wow-duration="4s">
+
+            <h6>Fattening</h6>
+
+
+            <h6>Milking</h6>
+
+
+
+            </p>
+
+
+        </div>
+
     </div>
 </section>
 
