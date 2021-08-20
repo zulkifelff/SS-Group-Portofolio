@@ -29,11 +29,12 @@
 <body>
 <?php include 'shared/header_new.php'; ?>
 
-    <div class="banner-detail-page">
-        <div class="container  page-banner-container">
-            <h2 class="banner-heading-style animate__fadeIn wow" data-wow-duration="3s">Standard <span class="true-color">Spinning Mills</span></h2>
-        </div>
+<div class="banner-detail-page spinning-banner">
+    <div class="container  page-banner-container">
+        <h2 class="banner-heading-style animate__fadeIn wow" data-wow-duration="3s">Standard <span class="true-color">Spinning Mills</span>
+        </h2>
     </div>
+</div>
 
 <section>
     <div class="container">
@@ -41,60 +42,67 @@
         <div class="row">
 
 
-        <div class="col-sm-12 col-md-12 col-lg-6 py-0 border-style-partial top left mt-70">
+            <div class="col-sm-12 col-md-12 col-lg-6 py-0 border-style-partial top left mt-70">
 
-            <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">
-                With state-of-the-art machinery, Standard Spinning Mills is one of Pakistan’s most automated spinning mills, producing 15 million pounds of yarn annually. With Shahzad Ali Khan, the founder of APTMA (All Pakistan Textile Mills Association), as our CEO; we have been able to achieve our goals that are efficiency, sustainability and innovation.
-            </p>
+                <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">
+                    With state-of-the-art machinery, Standard Spinning Mills is one of Pakistan’s most automated
+                    spinning mills, producing 15 million pounds of yarn annually. With Shahzad Ali Khan, the chairman of
+                    APTMA (All Pakistan Textile Mills Association), as our CEO; we have been able to achieve our goals
+                    that are efficiency, sustainability and innovation.
+                </p>
 
-            <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">
-                Using Pakistani, Indian, American and Brazilian cotton along with polyester, flax fiber, and hemp fiber; Standard Spinning Mills along with Tri Core Machinery from Printer Caipo, based in Spain and backroom processes set up by Reiter, a company in Switzerland; we are producing the following products:
-            </p>
+                <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">
+                    Using Pakistani, Indian, American and Brazilian cotton along with polyester, flax fiber, and hemp
+                    fiber; Standard Spinning Mills along with Tri Core Machinery from Printer Caipo, based in Spain and
+                    backroom processes set up by Reiter, a company in Switzerland; we are producing the following
+                    products:
+                </p>
 
-            <ul class="paragraph-text">
-                <li>
-                    Carded Yarn
-                </li>
+                <ul class="paragraph-text">
+                    <li>
+                        Carded Yarn
+                    </li>
 
-                <li>
-                    Compact Yarn
-                </li>
+                    <li>
+                        Compact Yarn
+                    </li>
 
-                <li>
-                    Slub Yarn
-                </li>
+                    <li>
+                        Slub Yarn
+                    </li>
 
-                <li>
-                    Core Spun Yarn
-                </li>
+                    <li>
+                        Core Spun Yarn
+                    </li>
 
-                <li>
-                    Sub Stretch Yarn
-                </li>
+                    <li>
+                        Sub Stretch Yarn
+                    </li>
 
-                <li>
-                    Tri-Core Yarn
-                </li>
+                    <li>
+                        Tri-Core Yarn
+                    </li>
 
-                <li>
-                    Dual Core Yarn
-                </li>
+                    <li>
+                        Dual Core Yarn
+                    </li>
 
-                <li>
-                    Viscose Yarn
-                </li>
-            </ul>
-        </div>
-
-
-        <div class="col-sm-12 col-md-12 col-lg-6 py-0 img-section-position">
-            <div class="row border-style-partial-images bottom">
-                <div class="right">
-                    <img loading="lazy" class="img-fluid wow animate__fadeIn" data-wow-duration="3s" src="assets/images/image@2x.png" alt="Refinery Image Detail Page">
-                </div>
-
+                    <li>
+                        Viscose Yarn
+                    </li>
+                </ul>
             </div>
-        </div>
+
+
+            <div class="col-sm-12 col-md-12 col-lg-6 py-0 img-section-position">
+                <div class="row border-style-partial-images bottom">
+                    <div class="right">
+                        <img loading="lazy" class="img-fluid wow animate__fadeIn" data-wow-duration="3s"
+                             src="assets/images/image@2x.png" alt="Refinery Image Detail Page">
+                    </div>
+
+                </div>
+            </div>
 
         </div>
     </div>

@@ -29,11 +29,12 @@
 <body>
 <?php include 'shared/header_new.php'; ?>
 
-    <div class="banner-detail-page">
-        <div class="container  page-banner-container">
-            <h2 class="banner-heading-style animate__fadeIn wow" data-wow-duration="3s">About <span class="true-color">Us</span></h2>
-        </div>
+<div class="banner-detail-page">
+    <div class="container  page-banner-container">
+        <h2 class="banner-heading-style animate__fadeIn wow" data-wow-duration="3s">About <span
+                    class="true-color">Us</span></h2>
     </div>
+</div>
 
 <section>
     <div class="container">
@@ -41,42 +42,50 @@
         <div class="row">
 
 
-        <div class="col-sm-12 col-md-12 col-lg-6 py-0 border-style-partial top left mt-70">
+            <div class="col-sm-12 col-md-12 col-lg-6 py-0 border-style-partial top left mt-70">
 
-            <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">
-                SS Feed was established in year 2014 with a vision to follow the footsteps of the world leading giants of the poultry industry. Starting from the day one we are a quality conscious company, our commitment to humility, integrity, ethics, hard work and focused customer market, we have started developing our roots in the local feed market.  We, by providing continuous quality products, have earned respect amongst the customers, both individual and large scale. At SS feed, we have installed latest state of the art machinery to produce highest standard feed for poultry - broiler and layers and cattle - milking and fattening.
+                <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">
+                    SS group is a combination of multiple giant groups targetting heavy industries for over three
+                    decades. We are chief supplier of countries biggest brands for oil, feed, cattle, agriculture,
+                    textiles. We are one of the largest exporters of textile and agriculture products. Our continued
+                    augmentation and success depends not only on the work we do but how we do. By
+                    carrying the ritual of team work with faith and modernism that is embedded in our success to
+                    face new challenges. Trust and professional excellence shall always remain hallmark of our
+                    business.
 
-            </p>
+                </p>
 
-<!--            <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">-->
-<!--                SS Feed Mills (Pvt) Ltd. Was incorporated on December 16, 2014 as private limited company.-->
-<!--                The Company started its commercial operation in June 2017. SS Feed Mills is one of the fastest growing poultry & cattle feed Manufacturer Company situated at 27/WB Hasilpur Road  District Vehari of Punjab Province. The Company belongs to the owners of SS Group having Textile Spinning and Oil extracting business.-->
-<!--                The owners of the Mills have capability and capacity to run an agro based industry in producing different types of poultry and cattle feeds with on time production and timely deliveries.-->
-<!--            </p>-->
-        </div>
-
-
-        <div class="col-sm-12 col-md-12 col-lg-6 py-0 img-section-position">
-            <div class="row border-style-partial-images bottom">
-                <div class="right">
-                    <img loading="lazy" class="img-fluid wow animate__fadeIn" data-wow-duration="3s" src="assets/images/image@2x.png" alt="Refinery Image Detail Page">
-                </div>
-
+                <!--            <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">-->
+                <!--                SS Feed Mills (Pvt) Ltd. Was incorporated on December 16, 2014 as private limited company.-->
+                <!--                The Company started its commercial operation in June 2017. SS Feed Mills is one of the fastest growing poultry & cattle feed Manufacturer Company situated at 27/WB Hasilpur Road  District Vehari of Punjab Province. The Company belongs to the owners of SS Group having Textile Spinning and Oil extracting business.-->
+                <!--                The owners of the Mills have capability and capacity to run an agro based industry in producing different types of poultry and cattle feeds with on time production and timely deliveries.-->
+                <!--            </p>-->
             </div>
-        </div>
+
+
+            <div class="col-sm-12 col-md-12 col-lg-6 py-0 img-section-position">
+                <div class="row border-style-partial-images bottom">
+                    <div class="right">
+                        <img loading="lazy" class="img-fluid wow animate__fadeIn" data-wow-duration="3s"
+                             src="assets/images/image@2x.png" alt="Refinery Image Detail Page">
+                    </div>
+
+                </div>
+            </div>
 
         </div>
 
-<!--        Our Mission-->
+        <!--        Our Mission-->
         <div class="row">
 
             <div class="col-sm-12 col-md-12 col-lg-12 py-0 top left">
 
                 <h2>Our Mission</h2>
                 <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">
-                    <ul>
+                <ul>
                     <li>
-                        To find and implement best available resources viz a viz plant, grains, meals and other materials to bring out the best values for our customers.
+                        To find and implement best available resources viz a viz plant, grains, meals and other
+                        materials to bring out the best values for our customers.
 
                     </li>
 
@@ -97,7 +106,7 @@
 
         </div>
 
-<!--        Our Vision-->
+        <!--        Our Vision-->
         <div class="row mt-25">
 
             <div class="col-sm-12 col-md-12 col-lg-12 py-0  top left">
@@ -111,7 +120,8 @@
                     </li>
 
                     <li>
-                        To meet our goal we took every step, keeping in mind, the excellence in producing and delivering the best to the customers.
+                        To meet our goal we took every step, keeping in mind, the excellence in producing and delivering
+                        the best to the customers.
 
                     </li>
 
@@ -125,15 +135,17 @@
 
         </div>
 
-<!--        Our Quality-->
+        <!--        Our Quality-->
         <div class="row mt-25">
 
             <div class="col-sm-12 col-md-12 col-lg-12 py-0  top left">
 
                 <h2>Quality</h2>
                 <p class="paragraph-text wow animate__fadeIn" data-wow-duration="2s">
-                    The continuous stringent mechanism of check and balance throughout the complete production process ensures quality of feed.
-                    At SS Feed we have NO COMPROMISE ON QUALITY Policy. We have strong belief in continuous improvement in principal of quality check.
+                    The continuous stringent mechanism of check and balance throughout the complete production process
+                    ensures quality of feed.
+                    At SS Feed we have NO COMPROMISE ON QUALITY Policy. We have strong belief in continuous improvement
+                    in principal of quality check.
                 </p>
 
 
@@ -141,82 +153,6 @@
 
         </div>
 
-<!--        Our Products-->
-        <div class="row mt-25">
-
-            <div class="col-sm-12 col-md-12 col-lg-12 py-0  top left">
-
-                <h2>Products</h2>
-                <h4>Poultry</h4>
-                <p class="paragraph-text wow animate__fadeIn" data-wow-duration="4s">
-                <h6>Layer</h6>
-                    <ul>
-                    <li>
-                        Starter
-                    </li>
-
-                    <li>
-                        Grower
-                    </li>
-                </ul>
-
-                <h6>BROILER</h6>
-                <ul>
-                    <li>
-                        Starter
-                    </li>
-
-                    <li>
-                        Grower
-                    </li>
-
-                    <li>
-                        Finisher
-                    </li>
-                </ul>
-
-                <h6>BREEDER</h6>
-                <ul>
-                    <li>
-                        Broiler breeder starter fattening
-                    </li>
-
-                    <li>
-                        Broiler breeder starter male
-                    </li>
-
-                    <li>
-                        Broiler breeder grower
-                    </li>
-
-                    <li>
-                        Layer breeder
-                    </li>
-
-                    <li>
-                        Layer breeder male
-                    </li>
-                </ul>
-
-
-                </p>
-
-                <h4>CATTLE</h4>
-                <p class="paragraph-text wow animate__fadeIn" data-wow-duration="4s">
-
-                <h6>Fattening</h6>
-
-
-                <h6>Milking</h6>
-                
-
-
-                </p>
-
-
-            </div>
-
-        </div>
 
     </div>
 </section>

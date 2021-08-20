@@ -29,7 +29,7 @@
 <body>
 <?php include 'shared/header_new.php'; ?>
 
-    <div class="banner-detail-page">
+    <div class="banner-detail-page agriculture">
         <div class="container  page-banner-container">
             <h2 class="banner-heading-style animate__fadeIn wow" data-wow-duration="3s">SS <span class="true-color">Agricultural Farm</span></h2>
         </div>
