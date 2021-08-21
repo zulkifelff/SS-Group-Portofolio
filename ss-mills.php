@@ -98,7 +98,7 @@
                 <div class="row border-style-partial-images bottom">
                     <div class="right">
                         <img loading="lazy" class="img-fluid wow animate__fadeIn" data-wow-duration="3s"
-                             src="assets/images/image@2x.png" alt="Refinery Image Detail Page">
+                             src="./images/small-images-folder/spinning.png" alt="Refinery Image Detail Page">
                     </div>
 
                 </div>

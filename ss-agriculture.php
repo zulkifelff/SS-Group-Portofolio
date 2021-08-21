@@ -54,7 +54,7 @@
         <div class="col-sm-12 col-md-12 col-lg-6 py-0 img-section-position">
             <div class="row border-style-partial-images bottom">
                 <div class="right">
-                    <img loading="lazy" class="img-fluid wow animate__fadeIn" data-wow-duration="3s" src="assets/images/ss-agriculture.png" alt="SS Agriculture">
+                    <img loading="lazy" class="img-fluid wow animate__fadeIn" data-wow-duration="3s" src="./images/small-images-folder/agriculture.png" alt="SS Agriculture">
                 </div>
 
             </div>
